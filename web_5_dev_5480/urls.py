@@ -34,9 +34,9 @@ urlpatterns = [
     path("api/v1/", include("mhgfhgf.api.v1.urls")),
 ]
 
-admin.site.site_header = "web 5"
-admin.site.site_title = "web 5 Admin Portal"
-admin.site.index_title = "web 5 Admin"
+admin.site.site_header = "web 50"
+admin.site.site_title = "web 50 Admin Portal"
+admin.site.index_title = "web 50 Admin"
 
 # swagger
 schema_view = get_schema_view(
